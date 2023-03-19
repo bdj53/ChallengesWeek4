@@ -1,0 +1,9 @@
+<apex:page Controller="ButtonController" tabStyle="Account">
+    <apex:form >
+        <apex:pageBlock title="Click button to access Account.">
+            <apex:pageBlockButtons >
+                <apex:commandButton action="{!DisplayAccount}" value="Click Me!"/>       
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
